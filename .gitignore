@@ -1,0 +1,6 @@
+/node_modules/*
+/bower_components/*
+/lib/font-awesome/*
+/lib/jquery/*
+/lib/jquery-touchswipe/*
+/npm-debug.log

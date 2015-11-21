@@ -1,0 +1,31 @@
+{
+  "name": "selections",
+  "version": "1.0",
+  "authors": [
+    "Tackacoder <edouard@tackacoder.fr>"
+  ],
+  "description": "Javascript/jQuery selections between three options with animation slide",
+  "main": [
+    "dist/selections.min.js",
+    "dist/selections.min.css"
+  ],
+  "keywords": [
+    "javascript",
+    "jquery",
+    "selections",
+    "checkbox"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "font-awesome": "~4.4.0",
+    "jquery-touchswipe": "~1.6.12"
+  }
+}
