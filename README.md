@@ -2,10 +2,11 @@
 
 This is a switch jquery plugin. This plugin allows to choose between three options.
 The toggle button switch with animation.
+[Demonstration](http://www.tackacoder.fr/candlestick/)
 
 ```html
 <link rel="stylesheet" href="dist/candlestick.min.css">
-<script src="dist/candlestick.mink.js" type="text/javascript"></script>
+<script src="dist/candlestick.min.js" type="text/javascript"></script>
 ```
 
 Create html field
@@ -42,6 +43,8 @@ $('.js-candlestick').candlestick({
     }
 });
 ```
+input -> the input[type=hidden]
+wrapper -> the wrapper element
 
 ## Dependencies
 * [jQuery framework](https://jquery.com/)
@@ -54,4 +57,4 @@ $('.js-candlestick').candlestick({
 
 ## ToDo list
 * Check compatibilities
-* swipe for mobile
+* ~~swipe for mobile~~
