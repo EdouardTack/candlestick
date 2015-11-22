@@ -22,12 +22,12 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="#">jQuery Candlestick</a>
+                                <a class="navbar-brand" href="./">jQuery Candlestick</a>
                             </div>
 
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#">Documentation</a></li>
+                                    <li class="active"><a href="https://github.com/EdouardTack/candlestick/blob/master/README.md">Documentation</a></li>
                                 </ul>
                             </div>
                         </div>
