@@ -1,7 +1,7 @@
 {
-  "name": "selections",
+  "name": "candlestick",
   "version": "1.0.0",
-  "description": "javascript selections between three values with animation",
+  "description": "javascript candlestick between three values with animation",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.0",
@@ -26,15 +26,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://Tackacoder@bitbucket.org/Tackacoder/selections.git"
+    "url": "git+https://github.com/EdouardTack/candlestick.git"
   },
   "keywords": [
     "Javascript",
     "jQuery",
     "Selections",
-    "checkbox"
+    "checkbox",
+    "swipe"
   ],
   "author": "Tackacoder <edouard@atckacoder.fr>",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/Tackacoder/selections#readme"
+  "homepage": "https://github.com/EdouardTack/candlestick#readme"
 }

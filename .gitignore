@@ -4,6 +4,8 @@
 /lib/font-awesome/*
 /lib/jquery/*
 /lib/jquery-touchswipe/*
+/lib/hammerjs/*
+/lib/jquery-hammerjs/*
 /npm-debug.log
 /developpment.php
 /dploy.yaml

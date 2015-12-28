@@ -1,18 +1,18 @@
 {
-  "name": "selections",
+  "name": "candlestick",
   "version": "1.0",
   "authors": [
     "Tackacoder <edouard@tackacoder.fr>"
   ],
-  "description": "Javascript/jQuery selections between three options with animation slide",
+  "description": "Javascript/jQuery candlestick between three options with animation slide",
   "main": [
-    "dist/selections.min.js",
-    "dist/selections.min.css"
+    "dist/candlestick.min.js",
+    "dist/candlestick.min.css"
   ],
   "keywords": [
     "javascript",
     "jquery",
-    "selections",
+    "candlestick",
     "checkbox"
   ],
   "license": "MIT",
@@ -26,6 +26,7 @@
   "dependencies": {
     "jquery": "~2.1.4",
     "font-awesome": "~4.4.0",
-    "jquery-touchswipe": "~1.6.12"
+    "hammerjs": "~2.0.6",
+    "jquery-hammerjs": "~2.0.0"
   }
 }
