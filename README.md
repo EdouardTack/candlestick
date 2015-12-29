@@ -55,14 +55,14 @@ $('.js-candlestick').candlestick({
 input -> the input[type=hidden]
 wrapper -> the wrapper element (.candlestick-bg)
 
-** More options for swipe**
+**More options for swipe**
 
 ```javascript
 $('.js-candlestick').candlestick({
     'swipe': {
         enabled: true, // for swipe
-        mobile: true,
-        desktop: true,
+        mobile: true, // Only for mobile/tablet (to develop)
+        desktop: true, // Only for desktop (to develop)
         transition: false
     }
 });
@@ -77,7 +77,7 @@ $('.js-candlestick').candlestick({
 ## Compatibility
 * Only use on Chrome browser
 * Minimum jQuery version 1.9.1
-* Develop with Twitter Bootstrap
+* Develop with Twitter Bootstrap 3.3
 
 ## ToDo list
 * Check compatibilities
@@ -85,8 +85,8 @@ $('.js-candlestick').candlestick({
 * ~~Swipe~~
 * Option for swipe in desktop and/or mobile
 * Swipe transistion
-    * On/Off
-    * On/Default/Off
+    * ~~On/Off~~
+    * On/Default/Off (Current developpment)
 
 # Developpement
 
@@ -96,3 +96,13 @@ $('.js-candlestick').candlestick({
 npm update
 bower update
 ```
+
+# LICENCE
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
