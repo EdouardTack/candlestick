@@ -37,7 +37,7 @@ $('.js-candlestick').candlestick({
     'on': '1', // for on value
     'off': '0', // for off value
     'nc': '', // for non value
-    'swipe': true, // for swipe mobile
+    'swipe': true, // for swipe
     afterAction: function(input, wrapper, action) {
         // Fired after action
     },
@@ -54,6 +54,19 @@ $('.js-candlestick').candlestick({
 ```
 input -> the input[type=hidden]
 wrapper -> the wrapper element (.candlestick-bg)
+
+** More options for swipe**
+
+```javascript
+$('.js-candlestick').candlestick({
+    'swipe': {
+        enabled: true, // for swipe
+        mobile: true,
+        desktop: true,
+        transition: false
+    }
+});
+```
 
 ## Dependencies
 * [jQuery framework](https://jquery.com/)

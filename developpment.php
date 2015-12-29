@@ -50,7 +50,12 @@
         <script type="text/javascript" src="lib/js/candlestick.js"></script>
         <script type="text/javascript">
             jQuery(function($) {
-                $(".js-candlestick").candlestick();
+                $(".js-candlestick").candlestick({
+                    swipe: {
+                        enabled: true,
+                        transition: true
+                    }
+                });
             });
         </script>
     </body>
