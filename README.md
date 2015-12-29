@@ -52,8 +52,10 @@ $('.js-candlestick').candlestick({
     }
 });
 ```
+
 input -> the input[type=hidden]
 wrapper -> the wrapper element (.candlestick-bg)
+
 
 **More options for swipe**
 
@@ -86,7 +88,7 @@ $('.js-candlestick').candlestick({
 * Option for swipe in desktop and/or mobile
 * Swipe transistion
     * ~~On/Off~~
-    * On/Default/Off (Current developpment)
+    * ~~On/Default/Off~~
 
 # Developpement
 
