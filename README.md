@@ -3,7 +3,8 @@
 This is a switch jquery plugin. This plugin allows to choose between three options.
 The toggle button switch with animation.
 You can use it with swipe option (Perform by Hammerjs)
-[Demonstration](http://www.tackacoder.fr/candlestick/)
+
+[Demonstration of candlestick](http://www.tackacoder.fr/candlestick/)
 
 ```html
 <link rel="stylesheet" href="path/to/font-awesome.min.css">
@@ -36,7 +37,7 @@ different options and methods
 $('.js-candlestick').candlestick({
     'on': '1', // for on value
     'off': '0', // for off value
-    'nc': '', // for non value
+    'nc': '', // for none value
     'swipe': true, // for swipe
     afterAction: function(input, wrapper, action) {
         // Fired after action
@@ -53,9 +54,9 @@ $('.js-candlestick').candlestick({
 });
 ```
 
-input -> the input[type=hidden]
-wrapper -> the wrapper element (.candlestick-bg)
+input -> the html field input[type=hidden]
 
+wrapper -> the wrapper element [class=candlestick-bg]
 
 **More options for swipe**
 
@@ -86,9 +87,10 @@ $('.js-candlestick').candlestick({
 * ~~Check if the element is a checkbox type~~
 * ~~Swipe~~
 * Option for swipe in desktop and/or mobile
-* Swipe transistion
+* ~~Swipe transistion~~
     * ~~On/Off~~
     * ~~On/Default/Off~~
+* CSS style for size (lg, md, sm, xm)
 
 # Developpement
 

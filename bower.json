@@ -1,10 +1,11 @@
 {
   "name": "candlestick",
+  "homepage": "https://github.com/EdouardTack/candlestick",
   "version": "1.0",
   "authors": [
     "Tackacoder <edouard@tackacoder.fr>"
   ],
-  "description": "Javascript/jQuery candlestick between three options with animation slide",
+  "description": "Javascript/jQuery candlestick toggle between three options (On / None / Off) with animation slide",
   "main": [
     "dist/candlestick.min.js",
     "dist/candlestick.min.css"
@@ -13,7 +14,8 @@
     "javascript",
     "jquery",
     "candlestick",
-    "checkbox"
+    "checkbox",
+    "toggle"
   ],
   "license": "MIT",
   "ignore": [
@@ -27,6 +29,7 @@
     "jquery": "~2.1.4",
     "font-awesome": "~4.4.0",
     "hammerjs": "~2.0.6",
-    "jquery-hammerjs": "~2.0.0"
+    "jquery-hammerjs": "~2.0.0",
+    "bootstrap": "~3.3.6"
   }
 }
