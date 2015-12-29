@@ -68,7 +68,7 @@ wrapper -> the wrapper element (.candlestick-bg)
 
 ## ToDo list
 * Check compatibilities
-* Check if the element is a checkbox type
+* ~~Check if the element is a checkbox type~~
 * ~~Swipe~~
 * Option for swipe in desktop and/or mobile
 * Swipe transistion

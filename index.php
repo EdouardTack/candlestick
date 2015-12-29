@@ -2,11 +2,10 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Selections</title>
-        <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-        <!-- <link href="dist/selections.min.css" rel="stylesheet"> -->
-        <link href="dist/candlestick.min.css" rel="stylesheet">
+        <title>Candlestick</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="lib/css/candlestick.css" rel="stylesheet">
     </head>
     <body>
 
@@ -74,8 +73,8 @@
 
         <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
         <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="lib/jquery-touchswipe/jquery.touchSwipe.js"></script>
-        <!-- <script type="text/javascript" src="dist/selections.min.js"></script> -->
+        <script type="text/javascript" src="lib/hammerjs/hammer.min.js"></script>
+        <script type="text/javascript" src="lib/jquery-hammerjs/jquery.hammer.js"></script>
         <script type="text/javascript" src="dist/candlestick.min.js"></script>
         <script type="text/javascript">
             jQuery(function($) {

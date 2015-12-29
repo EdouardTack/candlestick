@@ -5,7 +5,6 @@
         <title>Candlestick</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-        <!-- <link href="dist/selections.min.css" rel="stylesheet"> -->
         <link href="lib/css/candlestick.css" rel="stylesheet">
     </head>
     <body>
@@ -14,7 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <input type="checkbox" name="test" value="" id="test">
+                    <input class="js-candlestick" type="checkbox" name="test" value="" id="test">
                 </div>
             </div>
         </div>
@@ -22,7 +21,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <input type="checkbox" name="truc[]" value="" readonly>
+                    <input class="js-candlestick" type="checkbox" name="truc[]" value="" readonly>
                 </div>
             </div>
         </div>
@@ -30,7 +29,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <input type="checkbox" name="truc[zr][]" value="" disabled>
+                    <input class="js-candlestick" type="checkbox" name="truc[zr][]" value="" disabled>
                 </div>
             </div>
         </div>
@@ -38,7 +37,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <input type="checkbox" name="machin" value="1" id="machin">
+                    <input class="js-candlestick" type="checkbox" name="machin" value="1" id="machin">
                 </div>
             </div>
         </div>
@@ -51,7 +50,7 @@
         <script type="text/javascript" src="lib/js/candlestick.js"></script>
         <script type="text/javascript">
             jQuery(function($) {
-                $("input[type='checkbox']").candlestick();
+                $(".js-candlestick").candlestick();
             });
         </script>
     </body>
