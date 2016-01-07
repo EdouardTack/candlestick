@@ -66,7 +66,7 @@ $('.js-candlestick').candlestick({
         enabled: true, // for swipe
         mobile: true, // Only for mobile/tablet (to develop)
         desktop: true, // Only for desktop (to develop)
-        transition: false
+        transition: false // On value to off value / *true* On value to Default value to Off value
     }
 });
 ```
@@ -78,12 +78,20 @@ $('.js-candlestick').candlestick({
 * [Hammerjs](http://hammerjs.github.io/)
 
 ## Compatibility
-* Only use on Chrome browser
-* Minimum jQuery version 1.9.1
+* Browsers
+    * Windows / Chrome
+    * Windows / Opera
+    * Windows / Firefox
+    * Windows / Safari
+    * Windows / IE
+        * Edge (no test)
+        * IE10 +
+        * IE9 / no transition
+* Minimum jQuery version 1.9.1 (for bootstrap 3.3)
 * Develop with Twitter Bootstrap 3.3
 
 ## ToDo list
-* Check compatibilities
+* Check compatibilities (MAC)
 * ~~Check if the element is a checkbox type~~
 * ~~Swipe~~
 * Option for swipe in desktop and/or mobile
