@@ -39,6 +39,7 @@ $('.js-candlestick').candlestick({
     'off': '0', // for off value
     'nc': '', // for none value
     'swipe': true, // for swipe
+    'size': 'md', // Sizes (lg, md (default), sm, xs)
     afterAction: function(input, wrapper, action) {
         // Fired after action
     },
@@ -92,13 +93,14 @@ $('.js-candlestick').candlestick({
 
 ## ToDo list
 * Check compatibilities (MAC)
+* Check responsive mode
 * ~~Check if the element is a checkbox type~~
 * ~~Swipe~~
 * Option for swipe in desktop and/or mobile
 * ~~Swipe transistion~~
     * ~~On/Off~~
     * ~~On/Default/Off~~
-* CSS style for size (lg, md, sm, xm)
+* CSS style for size (lg, md, sm, xs)
 
 # Developpement
 
