@@ -150,3 +150,86 @@
         line-height: 30px;
     }
 
+    /**
+     * SM size
+     */
+    .candlestick-wrapper.candlestick-size-sm {
+        width: 45px;
+    }
+
+    .candlestick-wrapper.candlestick-size-sm .candlestick-bg,
+    .candlestick-wrapper.candlestick-size-sm .candlestick-bg .candlestick-off:before,
+    .candlestick-wrapper.candlestick-size-sm .candlestick-bg .candlestick-on:after {
+        height: 15px;
+    }
+
+    .candlestick-wrapper.candlestick-size-sm .candlestick-bg .candlestick-toggle {
+        width: 15px;
+        height: 15px;
+    }
+
+    .candlestick-wrapper.candlestick-size-sm .candlestick-bg .candlestick-off,
+    .candlestick-wrapper.candlestick-size-sm .candlestick-bg .candlestick-on,
+     .candlestick-wrapper.candlestick-size-sm .candlestick-bg .candlestick-nc {
+        height: 15px;
+        line-height: 15px;
+    }
+
+    .candlestick-wrapper.candlestick-size-sm .candlestick-bg .candlestick-off,
+    .candlestick-wrapper.candlestick-size-sm .candlestick-bg .candlestick-nc,
+    .candlestick-wrapper.candlestick-size-sm .candlestick-bg .candlestick-on {
+        width: 15px;
+    }
+
+    .candlestick-wrapper.candlestick-size-sm .candlestick-bg .candlestick-nc {
+        left: 15px;
+    }
+
+    .candlestick-wrapper.candlestick-size-sm .candlestick-bg .candlestick-off i,
+    .candlestick-wrapper.candlestick-size-sm .candlestick-bg .candlestick-on i {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    /**
+     * XS size
+     */
+    .candlestick-wrapper.candlestick-size-xs {
+        width: 30px;
+    }
+
+    .candlestick-wrapper.candlestick-size-xs .candlestick-bg,
+    .candlestick-wrapper.candlestick-size-xs .candlestick-bg .candlestick-off:before,
+    .candlestick-wrapper.candlestick-size-xs .candlestick-bg .candlestick-on:after {
+        height: 10px;
+    }
+
+    .candlestick-wrapper.candlestick-size-xs .candlestick-bg .candlestick-toggle {
+        width: 10px;
+        height: 10px;
+    }
+
+    .candlestick-wrapper.candlestick-size-xs .candlestick-bg .candlestick-off,
+    .candlestick-wrapper.candlestick-size-xs .candlestick-bg .candlestick-on,
+     .candlestick-wrapper.candlestick-size-xs .candlestick-bg .candlestick-nc {
+        height: 10px;
+        line-height: 10px;
+    }
+
+    .candlestick-wrapper.candlestick-size-xs .candlestick-bg .candlestick-off,
+    .candlestick-wrapper.candlestick-size-xs .candlestick-bg .candlestick-nc,
+    .candlestick-wrapper.candlestick-size-xs .candlestick-bg .candlestick-on {
+        width: 10px;
+    }
+
+    .candlestick-wrapper.candlestick-size-xs .candlestick-bg .candlestick-nc {
+        left: 10px;
+    }
+
+    .candlestick-wrapper.candlestick-size-xs .candlestick-bg .candlestick-off i,
+    .candlestick-wrapper.candlestick-size-xs .candlestick-bg .candlestick-on i {
+        display: block;
+        font-size: 7px;
+        line-height: 10px;
+        margin-top: 0px;
+    }

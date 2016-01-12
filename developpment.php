@@ -51,7 +51,7 @@
         <script type="text/javascript">
             jQuery(function($) {
                 $(".js-candlestick").candlestick({
-                    size: 'lg',
+                    size: 'xs',
                     swipe: {
                         enabled: true,
                         transition: true
