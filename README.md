@@ -22,7 +22,7 @@ Load dependencies for swipe option
 Create html field
 
 ```html
-<input class="js-candlestick" type="checkbox" name="candlestick" value="1" id="ID">
+<input class="js-candlestick" type="checkbox" name="candlestick" value="1">
 ```
 
 and then use it
@@ -122,7 +122,8 @@ $('.js-candlestick').candlestick({
 * ~~Swipe transistion~~
     * ~~On/Off~~
     * ~~On/Default/Off~~
-* CSS style for size (lg, md, sm, xs)
+* ~~CSS style for size (lg, md, sm, xs)~~
+* ~~Reset option~~
 
 # Developpement
 
