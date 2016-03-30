@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <input class="js-candlestick" type="checkbox" name="truc[]" value="" readonly>
+                    <input class="js-candlestick" type="checkbox" name="truc[]" value="1" readonly>
                 </div>
             </div>
         </div>
@@ -40,6 +40,11 @@
                     <input class="js-candlestick" type="checkbox" name="machin" value="1" id="machin">
                 </div>
             </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <a href="#" id="candle-reset" class="btn btn-danger">Reset</a>
+                </div>
+            </div>
         </div>
         <hr>
 
@@ -51,11 +56,17 @@
         <script type="text/javascript">
             jQuery(function($) {
                 $(".js-candlestick").candlestick({
-                    size: 'xs',
                     swipe: {
                         enabled: true,
                         transition: true
                     }
+                });
+
+                $('#candle-reset').on('click', function(e) {
+                    e.preventDefault();
+
+                    $(".js-candlestick").candlestick('reset');
+                    // $("#machin").candlestick('reset');
                 });
             });
         </script>

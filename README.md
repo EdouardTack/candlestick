@@ -1,4 +1,4 @@
-# jQuery toggle candlestick
+# jQuery toggle candlestick (version 1.1)
 
 This is a switch jquery plugin. This plugin allows to choose between three options.
 The toggle button switch with animation.
@@ -22,7 +22,7 @@ Load dependencies for swipe option
 Create html field
 
 ```html
-<input class="js-candlestick" type="checkbox" name="candlestick" value="1">
+<input class="js-candlestick" type="checkbox" name="candlestick" value="1" id="ID">
 ```
 
 and then use it
@@ -58,6 +58,28 @@ $('.js-candlestick').candlestick({
 input -> the html field input[type=hidden]
 
 wrapper -> the wrapper element [class=candlestick-bg]
+
+**Reset candle option**
+
+We can reset candlestick in form, for example, with click on button.
+
+```html
+<input class="js-candlestick" type="checkbox" name="candlestick" value="0" id="ID">
+```
+
+```javascript
+// Button to reset form
+$(MY_ELEMENT_BUTTON).on('click', function(e) {
+    e.preventDefault();
+
+    // With the class you use to create candlestick
+    // reset all candlestick
+    $(".js-candlestick").candlestick('reset');
+    // or with the ID of the input[type=checkbox] element
+    // reset only one candlestick
+    $("#ID").candlestick('reset');
+});
+```
 
 **More options for swipe**
 
