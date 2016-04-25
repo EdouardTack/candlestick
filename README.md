@@ -40,11 +40,19 @@ different options and methods
 
 ```javascript
 $('.js-candlestick').candlestick({
+    'mode': 'options', // "contents" is the other mode
+    'contents': { // Options for "contents" mode
+        'left': 'Left', // The left content
+        'middle': 'Middle', // The middle content
+        'right': 'Right', // The right content
+        'swipe': true // enable the global swipe mode
+    },
     'on': '1', // for on value
     'off': '0', // for off value
-    'nc': '', // for none value
+    'default': '', // for none/default value
     'swipe': true, // for swipe
     'size': 'md', // Sizes (lg, md (default), sm, xs)
+    'debug': false, // Display some log message. used with Candlestick.log()
     afterAction: function(input, wrapper, action) {
         // Fired after action
     },
@@ -119,6 +127,7 @@ $('.js-candlestick').candlestick({
 * Develop with Twitter Bootstrap 3.3
 
 ## ToDo list
+* Documentation for version 1.2
 * Check compatibilities (MAC)
 * Check responsive mode
 * ~~Check if the element is a checkbox type~~
