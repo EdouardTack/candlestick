@@ -163,9 +163,9 @@
         height: 56px;
     }
 
-    .candlestick-wrapper.candlestick-contents .candlestick-bg.off .candlestick-off,
-    .candlestick-wrapper.candlestick-contents .candlestick-bg.default .candlestick-nc,
-    .candlestick-wrapper.candlestick-contents .candlestick-bg.on .candlestick-on {
+    .candlestick-wrapper.candlestick-contents .candlestick-bg.off .candlestick-off:after,
+    .candlestick-wrapper.candlestick-contents .candlestick-bg.default .candlestick-nc:after,
+    .candlestick-wrapper.candlestick-contents .candlestick-bg.on .candlestick-on:after {
         color: #FFFFFF;
     }
 
