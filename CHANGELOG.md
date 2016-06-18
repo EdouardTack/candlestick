@@ -1,5 +1,11 @@
 # Changelog
 
+### Version 1.2.3 | 18/06/2016
+
+* Merge fix #1
+* fix #2
+* fix #3
+
 ### Version 1.2 | 25/04/2016
 
 * add a new mode called "options"

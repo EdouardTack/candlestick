@@ -1,3 +1,9 @@
+/* ========================================================================
+ * @author Edouard Tack <edouard@tackacoder.fr>
+ * Candlestick main version 1.2.3
+ * Licensed under MIT (https://github.com/EdouardTack/candlestick/blob/master/LICENSE)
+ * ======================================================================== */
+
 .candlestick-wrapper {
     position: relative;
     display: inline-block;

@@ -148,6 +148,10 @@ npm update
 bower update
 ```
 
+# Thanks contributors
+
+* [thewayiam](https://github.com/thewayiam)
+
 # LICENCE
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
