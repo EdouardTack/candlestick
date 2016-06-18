@@ -126,7 +126,7 @@
         text-align: center;
     }
 
-    .candlestick-wrapper .candlestick-bg .candlestick-nc {
+    .candlestick-wrapper.candlestick-contents .candlestick-bg .candlestick-nc {
         left: 100px;
     }
 
