@@ -72,6 +72,20 @@ input -> the html field input[type=hidden]
 
 wrapper -> the wrapper element [class=candlestick-bg]
 
+**Set candle option**
+
+```javascript
+$(".js-candlestick").candlestick('on');
+$(".js-candlestick").candlestick('off');
+```
+
+**Enable / Disable candle**
+
+```javascript
+$(".js-candlestick").candlestick('enable');
+$(".js-candlestick").candlestick('disable');
+```
+
 **Reset candle option**
 
 We can reset candlestick in form, for example, with click on button.
