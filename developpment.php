@@ -59,6 +59,10 @@
                     swipe: {
                         enabled: true,
                         transition: true
+                    },
+                    afterFinish: function(input, wrapper) {
+                        console.log(input);
+                        console.log(wrapper);
                     }
                 });
 
