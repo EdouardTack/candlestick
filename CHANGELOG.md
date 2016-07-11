@@ -1,5 +1,11 @@
 # Changelog
 
+### Version 1.3.0 | XX
+
+* Store Candlestick settings for options use
+* Optimizing code
+* CleanUp code
+
 ### Version 1.2.3 | 18/06/2016
 
 * Merge fix #1
