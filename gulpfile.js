@@ -1,5 +1,6 @@
 var gulp            = require('gulp');
 var minifyCss       = require('gulp-minify-css');
+var less            = require('gulp-less');
 var autoprefixer    = require('gulp-autoprefixer');
 var sourcemaps      = require('gulp-sourcemaps');
 var uglify          = require('gulp-uglify');
@@ -10,6 +11,16 @@ var livereload      = require('gulp-livereload');
  * Default Task
  */
 gulp.task('default', ['css', 'js']);
+
+/**
+ * Less css task
+ */
+gulp.task('less', function() {
+    gulp.src('./lib/less/*.less')
+        .pipe(less())
+        .pipe(rename('candlestick.less.css'))
+        .pipe(gulp.dest('dist'));
+});
 
 /**
  * Style task
