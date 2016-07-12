@@ -49,7 +49,7 @@ $('.js-candlestick').candlestick({
     },
     'on': '1', // for on value
     'off': '0', // for off value
-    'default': '', // for none/default value
+    'nc': '', // for none/default value
     'swipe': true, // for swipe
     'size': 'md', // Sizes (lg, md (default), sm, xs)
     'debug': false, // Display some log message. used with Candlestick.log()

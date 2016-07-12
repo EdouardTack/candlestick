@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <input class="js-candlestick" type="checkbox" name="test" value="" id="test">
+                    <input class="js-candlestick" type="checkbox" name="test" value="off" id="test">
                 </div>
             </div>
         </div>
@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <input class="js-candlestick" type="checkbox" name="truc[]" value="1" readonly>
+                    <input class="js-candlestick" type="checkbox" name="truc[]" value="on" id="truc" readonly>
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <input class="js-candlestick" type="checkbox" name="truc[zr][]" value="" disabled>
+                    <input class="js-candlestick" type="checkbox" name="truc[zr][]" value="off" id="truc2" disabled>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <input class="js-candlestick" type="checkbox" name="machin" value="1" id="machin">
+                    <input class="js-candlestick" type="checkbox" name="machin" value="on" id="machin">
                 </div>
             </div>
             <div class="row">
@@ -60,10 +60,9 @@
                         enabled: true,
                         transition: true
                     },
-                    afterFinish: function(input, wrapper) {
-                        console.log(input);
-                        console.log(wrapper);
-                    }
+                    'on': 'on',
+                    'off': 'off',
+                    'nc': 'default',
                 });
 
                 $('#candle-reset').on('click', function(e) {
