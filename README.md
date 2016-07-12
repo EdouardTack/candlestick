@@ -165,6 +165,7 @@ bower update
 # Thanks contributors
 
 * [thewayiam](https://github.com/thewayiam)
+* [drronich](https://github.com/drronich)
 
 # LICENCE
 
