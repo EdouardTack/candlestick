@@ -1,11 +1,11 @@
-# jQuery toggle candlestick (version 1.2)
+# jQuery toggle candlestick (version 1.2.3)
 
 This is a switch and stylish jquery plugin that converts checkbox to toggle switch button. This plugin allows to choose between three options.
 * Checked
 * Unchecked
 * Indeterminate
 
-The toggle button switch with animation.
+The toggle button switch with CSS3 animation.
 
 You can use it with swipe option (Perform by Hammerjs)
 
@@ -27,7 +27,7 @@ Load dependencies for swipe option
 Create html field
 
 ```html
-<input class="js-candlestick" type="checkbox" name="candlestick" value="1">
+<input class="js-candlestick" type="checkbox" name="candlestick" value="1" id="candlestick">
 ```
 
 and then use it
@@ -77,6 +77,7 @@ wrapper -> the wrapper element [class=candlestick-bg]
 ```javascript
 $(".js-candlestick").candlestick('on');
 $(".js-candlestick").candlestick('off');
+$(".js-candlestick").candlestick('default'); or $(".js-candlestick").candlestick('reset');
 ```
 
 **Enable / Disable candle**
@@ -141,7 +142,7 @@ $('.js-candlestick').candlestick({
 * Develop with Twitter Bootstrap 3.3
 
 ## ToDo list
-* Documentation for version 1.2
+* Documentation for feature
 * Check compatibilities (MAC)
 * Check responsive mode
 * ~~Check if the element is a checkbox type~~
@@ -153,7 +154,19 @@ $('.js-candlestick').candlestick({
 * ~~CSS style for size (lg, md, sm, xs)~~
 * ~~Reset option~~
 
-# Developpement
+# Roadmap Version 2
+
+## ToDo list
+
+* Settings can be integrate into the checkbox element with dataset attribute
+* Execute the html element with $('[data-toggle="candletisk"]')
+* Allow linear/easing animation
+* Remove dependencies with bootstrap and FontAwesome
+* Create less css
+
+# Development
+
+Create new branch for helping development
 
 ## Update workflow
 
@@ -165,6 +178,11 @@ bower update
 # Thanks contributors
 
 * [thewayiam](https://github.com/thewayiam)
+* [drronich](https://github.com/drronich)
+
+# CHANGELOG
+
+[SEE CHANGELOG](https://github.com/EdouardTack/candlestick/blob/master/CHANGELOG.md)
 
 # LICENCE
 
