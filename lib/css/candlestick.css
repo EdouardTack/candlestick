@@ -1,6 +1,6 @@
 /* ========================================================================
  * @author Edouard Tack <edouard@tackacoder.fr>
- * Candlestick main version 1.2.3
+ * Candlestick main version 1.3.0
  * Licensed under MIT (https://github.com/EdouardTack/candlestick/blob/master/LICENSE)
  * ======================================================================== */
 

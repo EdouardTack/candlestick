@@ -1,6 +1,6 @@
 {
   "name": "candlestick",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "description": "javascript candlestick between three values with animation",
   "main": "gulpfile.js",
   "dependencies": {

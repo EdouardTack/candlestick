@@ -1,4 +1,4 @@
-# jQuery toggle candlestick (version 1.2.3)
+# jQuery toggle candlestick (version 1.3.0)
 
 This is a switch and stylish jquery plugin that converts checkbox to toggle switch button. This plugin allows to choose between three options.
 * Checked
@@ -24,10 +24,10 @@ Load dependencies for swipe option
 <script src="path/to/jquery-hammerjs/jquery-hammer.js" type="text/javascript"></script>
 ```
 
-Create html field
+Create html field (id is neccessary)
 
 ```html
-<input class="js-candlestick" type="checkbox" name="candlestick" value="1" id="candlestick">
+<input class="js-candlestick" type="checkbox" name="candlestick" value="1" id="myId>
 ```
 
 and then use it
@@ -49,7 +49,7 @@ $('.js-candlestick').candlestick({
     },
     'on': '1', // for on value
     'off': '0', // for off value
-    'default': '', // for none/default value
+    'nc': '', // for none/default value
     'swipe': true, // for swipe
     'size': 'md', // Sizes (lg, md (default), sm, xs)
     'debug': false, // Display some log message. used with Candlestick.log()
