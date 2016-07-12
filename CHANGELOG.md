@@ -2,6 +2,7 @@
 
 ### Version 1.3.0 | XX
 
+* Bug fix, default settings was in conflict with options mode. eg: candlestick('reset'). Rename in 'nc' name
 * Store Candlestick settings for options use
 * Optimizing code
 * CleanUp code
