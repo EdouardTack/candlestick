@@ -1,5 +1,9 @@
 # Changelog
 
+### Version 1.3.1 | 26/07/2016
+
+* Bug fix, jQuery.noConflict() works now
+
 ### Version 1.3.0 | 12/07/2016
 
 * Bug fix, default settings was in conflict with options mode. eg: candlestick('reset'). Rename in 'nc' name
