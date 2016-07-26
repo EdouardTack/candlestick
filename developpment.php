@@ -49,20 +49,27 @@
         <hr>
 
         <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prototype/1.7.3/prototype.js"></script>
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="lib/hammerjs/hammer.min.js"></script>
         <script type="text/javascript" src="lib/jquery-hammerjs/jquery.hammer.js"></script>
         <script type="text/javascript" src="lib/js/candlestick.js"></script>
         <script type="text/javascript">
-            jQuery(function($) {
+            jQuery.noConflict();
+            jQuery(document).ready(function($) {
+                $(".js-candlestick").candlestick();
+            });
+
+            /*jQuery(function($) {
                 $(".js-candlestick").candlestick({
                     swipe: {
                         enabled: true,
                         transition: true
                     },
-                    'on': 'on',
-                    'off': 'off',
-                    'nc': 'default',
+                    on: 'on',
+                    off: 'off',
+                    nc: 'default',
+                    allowManualNc: false
                 });
 
                 $('#candle-reset').on('click', function(e) {
@@ -71,7 +78,7 @@
                     $(".js-candlestick").candlestick('reset');
                     // $("#machin").candlestick('reset');
                 });
-            });
+            });*/
         </script>
     </body>
 </html>
