@@ -1,5 +1,9 @@
 # Changelog
 
+### Version 1.3.1 | 29/07/2016
+
+* Add allowManualDefault configuration
+
 ### Version 1.3.1 | 26/07/2016
 
 * Bug fix, jQuery.noConflict() works now

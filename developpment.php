@@ -57,11 +57,13 @@
         <script type="text/javascript">
             jQuery.noConflict();
             jQuery(document).ready(function($) {
-                $(".js-candlestick").candlestick();
+                $(".js-candlestick").candlestick({
+                    allowManualDefault: false
+                });
             });
 
-            /*jQuery(function($) {
-                $(".js-candlestick").candlestick({
+            jQuery(function($) {
+                /*$(".js-candlestick").candlestick({
                     swipe: {
                         enabled: true,
                         transition: true
@@ -70,7 +72,7 @@
                     off: 'off',
                     nc: 'default',
                     allowManualNc: false
-                });
+                });*/
 
                 $('#candle-reset').on('click', function(e) {
                     e.preventDefault();
@@ -78,7 +80,7 @@
                     $(".js-candlestick").candlestick('reset');
                     // $("#machin").candlestick('reset');
                 });
-            });*/
+            });
         </script>
     </body>
 </html>
