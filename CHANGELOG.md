@@ -1,6 +1,6 @@
 # Changelog
 
-### Version 1.3.1 | 29/07/2016
+### Version 1.4.0 | 29/07/2016
 
 * Add allowManualDefault configuration
 
