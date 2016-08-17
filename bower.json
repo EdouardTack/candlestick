@@ -5,7 +5,7 @@
   "authors": [
     "Tackacoder <edouard@tackacoder.fr>"
   ],
-  "description": "Javascript/jQuery candlestick toggle between three options (On / None / Off) with animation slide",
+  "description": "This is a switch and stylish jquery plugin that converts checkbox to toggle switch button. This plugin allows to choose between three options. Checked / Unchecked / Indeterminate",
   "main": [
     "dist/candlestick.min.js",
     "dist/candlestick.min.css"

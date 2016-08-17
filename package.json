@@ -1,7 +1,7 @@
 {
   "name": "candlestick",
   "version": "1.4.0",
-  "description": "javascript candlestick between three values with animation",
+  "description": "This is a switch and stylish jquery plugin that converts checkbox to toggle switch button. This plugin allows to choose between three options. Checked / Unchecked / Indeterminate",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.0",
@@ -31,7 +31,7 @@
   "keywords": [
     "Javascript",
     "jQuery",
-    "Selections",
+    "candlestick",
     "checkbox",
     "swipe"
   ],
