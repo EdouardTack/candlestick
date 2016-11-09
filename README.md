@@ -1,4 +1,4 @@
-# jQuery toggle candlestick (version 1.4.0)
+# jQuery toggle candlestick (version 1.4.1)
 
 This is a switch and stylish jquery plugin that converts checkbox to toggle switch button. This plugin allows to choose between three options.
 * Checked

@@ -1,5 +1,9 @@
 # Changelog
 
+### Version 1.4.1 | 09/11/2016
+
+* fix #14 afterAction parameters return undefined
+
 ### Version 1.4.0 | 29/07/2016
 
 * Add allowManualDefault configuration
