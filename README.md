@@ -1,3 +1,11 @@
+# Candlestick will no longer be support
+
+Sorry, but i have no time to support or/and develop this plugin.
+If someone want to continue his developement, he can contact me.
+Contact E-mail : edouard@tackacoder.fr
+
+-----------------------------------------------------------------------------
+
 # jQuery toggle candlestick (version 1.4.1)
 
 This is a switch and stylish jquery plugin that converts checkbox to toggle switch button. This plugin allows to choose between three options.
@@ -8,8 +16,6 @@ This is a switch and stylish jquery plugin that converts checkbox to toggle swit
 The toggle button switch with CSS3 animation.
 
 You can use it with swipe option (Perform by Hammerjs)
-
-[Demonstration of candlestick](http://www.tackacoder.fr/candlestick/)
 
 ```html
 <link rel="stylesheet" href="path/to/font-awesome.min.css">
@@ -190,7 +196,7 @@ bower update
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Edouard TACK
+Copyright (c) 2015
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
